@@ -35,8 +35,6 @@ for i, fruit := range fruits {
 
 package main
 
-import "fmt"
-
 func main() {
 
 }
