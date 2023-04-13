@@ -19,23 +19,24 @@ for i, fruit := range fruits {
 	fmt.Println(index+1, film)
 } */
 
+// Slice of Map
+/* films := []map[string]string{
+	{"name": "GOTG3", "year": "2024"},
+	{"name": "The Marvels", "year": "2023"},
+	{"name": "Secret Invasion", "year": "2023"},
+	{"name": "Antman and The Wasp : Quantumania", "year": "2023"},
+} */
+
+/* for index, film := range films {
+	fmt.Println(index+1, "Film Title :", film["name"], "release on", film["year"])
+} */
+
+// fmt.Println(len(films))
+
 package main
 
 import "fmt"
 
 func main() {
 
-	// Slice of Map
-	films := []map[string]string{
-		{"name": "GOTG3", "year": "2024"},
-		{"name": "The Marvels", "year": "2023"},
-		{"name": "Secret Invasion", "year": "2023"},
-		{"name": "Antman and The Wasp : Quantumania", "year": "2023"},
-	}
-
-	for index, film := range films {
-		fmt.Println(index+1, "Film Title :", film["name"], "release on", film["year"])
-	}
-
-	fmt.Println(len(films))
 }
